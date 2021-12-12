@@ -4,6 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+const title = 'Squadtech | Home'
+const element = (
+  <title>{title}</title>
+);
+
+ReactDOM.render(
+  element,
+  document.getElementById('title')
+);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
