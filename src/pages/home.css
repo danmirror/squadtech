@@ -1,0 +1,9 @@
+.height-limit{
+    min-height:400px ;
+}
+.bg-light-dark{
+    background-color: rgb(236, 236, 236);
+}
+.bg-light{
+    background-color: rgb(255, 255, 255);
+}

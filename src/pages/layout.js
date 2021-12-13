@@ -10,12 +10,12 @@ const Layout = () => {
     <>
         <Navbar bg="primary fixed-top" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">React SquadTech</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="blogs">Blogs</Nav.Link>
+                    <Nav.Link href="/#/">Home</Nav.Link>
+                    <Nav.Link href="/#/blogs">Blogs</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/">Home</NavDropdown.Item>
                         <NavDropdown.Item href="blogs">Blogs</NavDropdown.Item>

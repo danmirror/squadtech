@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import bg1 from "../image/bg1.jpg";
 import bg2 from "../image/bg2.jpg";
 import bg3 from "../image/bg3.jpg";
+import "./home.css";
 
 const Home = () => {
     return(
@@ -29,6 +30,44 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <section className="bg-light">
+                <div className="container height-limit">
+                    <div className="row">
+                    <div className="col-md">
+                        HELLOW
+                    </div>
+                    <div className="col-md">
+                        HELLOW
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section className="bg-light-dark">
+                <div className="container height-limit">
+                    <div className="row">
+                    <div className="col-md">
+                        HELLOW
+                    </div>
+                    <div className="col-md">
+                        HELLOW
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section className="bg-light">
+                <div className="container height-limit">
+                    <div className="row">
+                    <div className="col-md">
+                        HELLOW
+                    </div>
+                    <div className="col-md">
+                        HELLOW
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+
         </>
         
         )
