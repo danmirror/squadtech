@@ -7,15 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const title = 'Squadtech | Home'
-const element = (
-  <title>{title}</title>
-);
 
-ReactDOM.render(
-  element,
-  document.getElementById('title')
-);
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +16,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -1,0 +1,90 @@
+
+.container-foot {
+   background-color:rgba(0, 0, 0, 0.89);
+   /* height: 2em; */
+    
+}
+.container-foot  p{
+   color: azure;
+   /* padding: 1em 0; */
+   font-size: 0.9em;
+}
+
+/* delete under footer */
+.container-foot .row{
+   --bs-gutter-x: 0!important;
+}
+.container-foot  p a{
+   text-decoration: none;
+}
+
+ul a{
+   text-decoration: none;
+   color: var(--bs-body-color);;
+}
+html,body {
+   height: 100%;
+}
+#root {
+   height: 100%;
+}
+#root {
+   display: flex;
+   flex-direction: column;
+}
+.content {
+   flex: 1 0 auto!important;
+   /* position: relative; */
+}
+.footer {
+   flex-shrink: 0;
+}
+
+
+
+
+/* dark mode area */
+.darktoggle{
+   display: none;
+}
+.darkmode--activated .card p{
+   color: rgb(0, 0, 0);
+}
+.darkmode--activated .footer .row p{
+   color: rgb(0, 0, 0);
+}
+.darkmode--activated .footer .container-foot p{
+   color: rgb(255, 255, 255);
+}
+
+.darkmode--activated .footer a:hover {
+   color: cornflowerblue;
+}
+.darkmode--activated p, .darkmode--activated li {
+   color: rgb(255, 255, 255);
+ }
+.darkmode--activated h1, .darkmode--activated .footer a {
+   color: rgb(255, 255, 255);
+ }
+ .darkmode--activated .bg-light-dark{
+   background-color: rgb(236, 234, 234)!important;
+}
+
+.nav-custom{
+   background-color: rgb(53, 53, 53);
+}
+.darkmode--activated .nav-custom{
+   background-color: rgb(253, 253, 253);
+   color: black!important;
+}
+
+.darkmode--activated .bg-dark{
+   background-color: rgb(253, 253, 253)!important;
+   color: black;
+}
+.darkmode--activated .notHome .nav-link{
+   color:black!important;
+}
+.darkmode--activated .nav-custom .nav-link{
+   color:black!important;
+}

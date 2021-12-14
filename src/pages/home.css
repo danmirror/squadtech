@@ -1,10 +1,13 @@
+
+
 .height-limit{
     min-height:600px ;
 }
 .bg-light-dark{
-    background-color: rgb(236, 236, 236);
+    background-color: azure;
 }
-    .bg-light{
+
+.bg-light{
     background-color: rgb(255, 255, 255);
 }
 .center-item{
@@ -25,6 +28,9 @@
 .center-border-4{
     padding: 7em 0;
 }
+.center-border-5{
+    padding: 10em 0;
+}
 .carousel-caption{
     text-align: left!important;
     bottom: 8.6rem!important;
@@ -36,3 +42,4 @@
     width: 50%;
     padding: 1em;
 }
+
