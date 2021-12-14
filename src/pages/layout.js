@@ -16,19 +16,19 @@ const Layout = () => {
                 <Nav className="ms-auto">
                     <Nav.Link href="/#/">Home</Nav.Link>
                     <Nav.Link href="/#/blogs">Blogs</Nav.Link>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                    <NavDropdown title="product" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/">Home</NavDropdown.Item>
                         <NavDropdown.Item href="blogs">Blogs</NavDropdown.Item>
                         <NavDropdown.Item href="contact">Contact</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
                     </NavDropdown>
+                    <Nav.Link href="/#/contact">Contact</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
         
-
       <Outlet />
     </>
   )

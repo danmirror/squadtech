@@ -1,9 +1,38 @@
 .height-limit{
-    min-height:400px ;
+    min-height:600px ;
 }
 .bg-light-dark{
     background-color: rgb(236, 236, 236);
 }
-.bg-light{
+    .bg-light{
     background-color: rgb(255, 255, 255);
+}
+.center-item{
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+   
+}
+.center-border-1{
+    padding: 2em 0;
+}
+.center-border-2{
+    padding: 3em 0;
+}
+.center-border-3{
+    padding: 5em 0;
+}
+.center-border-4{
+    padding: 7em 0;
+}
+.carousel-caption{
+    text-align: left!important;
+    bottom: 8.6rem!important;
+}
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1em;
 }
