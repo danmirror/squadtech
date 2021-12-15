@@ -3,9 +3,9 @@ import React, { useEffect } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import farming from "../image/farming.jpg";
+import farming from "../image/farming.jpeg";
 import bg1 from "../image/bg1.jpg";
-import bg2 from "../image/bg2.jpg";
+import bg2 from "../image/bg2.jpeg";
 import bg3 from "../image/bg3.jpg";
 
 import iot from "../image/iot.png";
