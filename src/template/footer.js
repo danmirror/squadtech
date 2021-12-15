@@ -28,15 +28,15 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                    <img className="d-block " src={logo} height="100" width="300"/>
+                    <img className="d-block " src={logo} height="100" width="300" alt=""/>
                     {/* <h4>SquadTech</h4> */}
                     <p>
                     Squad Technology indonesia adalah platform yang digunakan untuk IOT(Internet Of Things), platform ini digunakan untuk melakukan monitoring, control dan berbagai kebutuhan tentang era technology berbasis internet saat ini 
                     </p>
                     </div>
                     <div className="col-md-3">
-                    <div className="row">
-                        <div className="col-md-12 mb-3">
+                    <div className="row  mb-4">
+                        <div className="col-md-12 mb-2">
                             Product:
                         </div>
                         <div className="col-md-12">
@@ -55,8 +55,8 @@ const Footer = () => {
                     </div>
                     </div>
                     <div className="col-md-3">
-                    <div className="row">
-                        <div className="col-md-12 mb-3">
+                    <div className="row  mb-4">
+                        <div className="col-md-12 mb-2">
                             Contact:
                         </div>
                         <div className="col-md-12">

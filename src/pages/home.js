@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import farming from "../image/farming.jpg";
 import bg1 from "../image/bg1.jpg";
 import bg2 from "../image/bg2.jpg";
 import bg3 from "../image/bg3.jpg";
@@ -10,6 +11,9 @@ import bg3 from "../image/bg3.jpg";
 import iot from "../image/iot.png";
 import industrial from "../image/industrial.png";
 import www from "../image/www.png";
+
+import cloudcomputing from "../image/cloudcomputing.png";
+import hardware from "../image/hardware.png";
 
 import "./home.css";
 
@@ -36,7 +40,7 @@ const Home = () => {
 
     var top  = window.pageYOffset || document.documentElement.scrollTop
    
-    console.log("iii",top);
+    // console.log("iii",top);
 
     window.onload = function(e){ 
         var element = document.getElementById("nav-custom");
@@ -65,7 +69,7 @@ const Home = () => {
             </Helmet>
             <Navbar bg=" fixed-top" variant="dark" expand="lg" id="nav-custom">
                 <Container>
-                    <img className="d-block " src={logo} height="55" width="200"/>
+                    <img className="d-block" src={logo} height="55" width="200" alt=""/>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
@@ -83,25 +87,32 @@ const Home = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Carousel fade >
+            <Carousel fade className="image-bg-dark">
                 <Carousel.Item interval={3000}>
-                    <img className="d-block w-100" src={bg1} height="640" />
+                    <img className="d-block w-100 image-bg" src={farming} height="640" width="960" alt=""/>
                     <Carousel.Caption data-aos="fade-up">
-                    <h1>First slide label</h1>
+                    <h1>Internet Of Things</h1>
                     <h4>Nulla vitae elit libero, a pharetra augue mollis interdum.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
-                    <img className="d-block w-100" src={bg2} height="640"  />
+                    <img className="d-block w-100 image-bg" src={bg1} height="640" width="960" alt=""/>
                     <Carousel.Caption data-aos="fade-up">
-                    <h1>Second slide label</h1>
+                    <h1>Smart Home</h1>
+                    <h4>Nulla vitae elit libero, a pharetra augue mollis interdum.</h4>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={3000}>
+                    <img className="d-block w-100 image-bg" src={bg2} height="640" width="960" alt=""/>
+                    <Carousel.Caption data-aos="fade-up">
+                    <h1>Industrial automation</h1>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
-                    <img className="d-block w-100" src={bg3} height="640"  />
+                    <img className="d-block w-100 image-bg" src={bg3} height="640" width="960" alt=""/>
                     <Carousel.Caption data-aos="fade-up">
-                    <h1>Third slide label</h1>
+                    <h1>Website Customize</h1>
                     <h4>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -111,7 +122,7 @@ const Home = () => {
                     <div className="row center-border-4"> 
                         <div className="col-md-4 my-2 ">
                             <Card  className="center-item" style={{ width: '18rem' }}>
-                                <img src={iot}  width="100" height="110"/>
+                                <img src={iot}  width="100" height="110" alt=""/>
                                 <Card.Body data-aos="fade-up" >
                                     <Card.Title className="text-center">INTERNET OF THING</Card.Title>
                                     <Card.Text>
@@ -124,7 +135,7 @@ const Home = () => {
                         </div>
                         <div className="col-md-4 my-2">
                             <Card  className="center-item" style={{ width: '18rem' }}>
-                                <img src={industrial}  width="100" height="110"/>
+                                <img src={industrial}  width="100" height="110" alt=""/>
                                 <Card.Body data-aos="fade-up" >
                                     <Card.Title className="text-center">AUTOMATION INDUSTRY</Card.Title>
                                     <Card.Text>
@@ -137,7 +148,7 @@ const Home = () => {
                         </div>
                         <div className="col-md-4 my-2">
                             <Card  className="center-item" style={{ width: '18rem' }}>
-                                <img src={www}  width="100" height="110"/>
+                                <img src={www}  width="100" height="110" alt=""/>
                                 <Card.Body data-aos="fade-up" >
                                     <Card.Title className="text-center">WEBSITE</Card.Title>
                                     <Card.Text>
@@ -153,12 +164,14 @@ const Home = () => {
             </section>
            
             <section className="bg-light-dark">
-                <div className="container height-limit">
+                <div className="container height-limit center-border-5">
                     <div className="row">
-                    <div className="col-md-5">
-                       IMAGE
+                    <div className="col-md-5 image-center mb-3">
+                        <div className="image-center">
+                            <img src={hardware}  width="200" height="200" alt=""/>
+                        </div>
                     </div>
-                    <div className="col-md-7 center-border-5" data-aos="fade-up">
+                    <div className="col-md-7" data-aos="fade-up">
                         <h1>Custom Your Device</h1>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit laborum doloremque commodi ut alias tempore, minima, soluta labore optio magnam recusandae dolore vero, saepe quod. Optio nam recusandae nemo reprehenderit!</p>
                     </div>
@@ -166,14 +179,16 @@ const Home = () => {
                 </div>
             </section>
             <section className="bg-light">
-                <div className="container height-limit">
+                <div className="container height-limit center-border-5">
                     <div className="row">
-                    <div className="col-md-7 center-border-5" data-aos="fade-up">
+                    <div className="col-md-7 mb-3" data-aos="fade-up">
                         <h1>Cloud Integration</h1>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit laborum doloremque commodi ut alias tempore, minima, soluta labore optio magnam recusandae dolore vero, saepe quod. Optio nam recusandae nemo reprehenderit!</p>
                     </div>
-                    <div className="col-md-5">
-                       IMAGE
+                    <div className="col-md-5 image-center">
+                        <div className="image-center">
+                            <img src={cloudcomputing}  width="300" height="300" alt=""/>
+                        </div>
                     </div>
                     
                     </div>

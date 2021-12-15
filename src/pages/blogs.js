@@ -18,7 +18,7 @@ const Blogs = () => {
         </Helmet>
         <Navbar bg="dark fixed-top" variant="dark" expand="lg" className="nav-custom notHome" id="nav-custom">
             <Container>
-                <img className="d-block " src={logo} height="55" width="200"/>
+                <img className="d-block " src={logo} height="55" width="200" alt=""/>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">

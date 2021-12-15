@@ -3,6 +3,13 @@
 .height-limit{
     min-height:600px ;
 }
+.image-bg{
+    opacity: 0.4;
+}
+.image-bg-dark{
+    
+    background-color: black;
+}
 .bg-light-dark{
     background-color: azure;
 }
@@ -43,3 +50,10 @@
     padding: 1em;
 }
 
+.image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* padding: 1em; */
+}
