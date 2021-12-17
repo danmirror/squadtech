@@ -73,15 +73,15 @@ const Home = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/#/">Home</Nav.Link>
-                        <Nav.Link href="/#/blogs">Blogs</Nav.Link>
-                        <NavDropdown title="Product" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/">IOT</NavDropdown.Item>
-                            <NavDropdown.Item href="blogs">Auto Industy</NavDropdown.Item>
-                            <NavDropdown.Item href="contact">Wesite</NavDropdown.Item>
-                            <NavDropdown.Divider />
+                        <Nav.Link className="active" href="/#/">Home</Nav.Link>
+                        <NavDropdown title="Products" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/#/products/iot">IOT</NavDropdown.Item>
+                            <NavDropdown.Item href="/#/products/autoindustry">Auto Industy</NavDropdown.Item>
+                            <NavDropdown.Item href="/#/products/website">Wesite</NavDropdown.Item>
+                            {/* <NavDropdown.Divider /> */}
                             {/* <NavDropdown.Item href="#">Separated link</NavDropdown.Item> */}
                         </NavDropdown>
+                        <Nav.Link href="/#/about">About</Nav.Link>
                         <Nav.Link href="/#/contact">Contact</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
@@ -163,10 +163,10 @@ const Home = () => {
                 </div>
             </section>
            
-            <section className="bg-light-dark">
+            <section className="bg-light-dark description-model1">
                 <div className="container height-limit center-border-5">
                     <div className="row">
-                    <div className="col-md-5 image-center mb-3">
+                    <div className="col-md-5  mb-3">
                         <div className="image-center">
                             <img src={hardware}  width="200" height="200" alt=""/>
                         </div>
@@ -178,14 +178,14 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-light">
+            <section className="bg-light description-model2">
                 <div className="container height-limit center-border-5">
                     <div className="row">
                     <div className="col-md-7 mb-3" data-aos="fade-up">
                         <h1>Cloud Integration</h1>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit laborum doloremque commodi ut alias tempore, minima, soluta labore optio magnam recusandae dolore vero, saepe quod. Optio nam recusandae nemo reprehenderit!</p>
                     </div>
-                    <div className="col-md-5 image-center">
+                    <div className="col-md-5 ">
                         <div className="image-center">
                             <img src={cloudcomputing}  width="300" height="300" alt=""/>
                         </div>

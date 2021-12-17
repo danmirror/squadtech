@@ -1,0 +1,12 @@
+.logo-contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1em;
+}
+.logo-contact .icon{
+    width: 40px!important;
+    height: 40px!important;
+    color: black;
+}

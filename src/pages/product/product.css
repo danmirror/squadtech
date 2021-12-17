@@ -1,0 +1,13 @@
+.container-product{
+    padding: 3em;
+}
+.image-center-product{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1em;
+}
+Table{
+    font-size: .9em;
+}
